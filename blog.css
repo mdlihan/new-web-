@@ -134,12 +134,11 @@ ul li:hover{
 }
 .card button{
     background-color: orange;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1.2rem;
     border: none;
-    width: 10rem;
-    height: 2rem;
-    font-size: 1rem;
-    margin: 15px;
-    border-radius: 5px;
+    cursor: pointer;
 }
 /* about me end */
 /* archives start */
@@ -210,6 +209,7 @@ ul li:hover{
         padding: 7px;
         margin-top: 7px;
         font-weight: bold;
+        cursor: pointer;
      }
 /* blog post end */
 
@@ -226,7 +226,7 @@ ul li:hover{
   }
   .box{
     box-shadow: 4.2px 3.1px 4px rgb(54, 54, 54),-2.5px 1.6px 3px rgb(41, 41, 41);
-    margin: 0px 90px; 
+    margin: 0px 70px; 
     border-radius: 10px;
   }
   .ratul .md{
@@ -252,14 +252,16 @@ ul li:hover{
     padding: 5px;
     font-size: 1rem;
   }
-  #massage{
-    height: 4rem;
+  #massage{  
+    height: 4.5rem;
     width: 14rem;
     border-radius: 5px;
     border: none;
     font-weight: bold;
     padding: 5px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    letter-spacing: normal;
     margin-right: 15px;
   }
   .submit button{
@@ -272,6 +274,7 @@ ul li:hover{
         font-weight: bold;
         margin-left: 12.5rem;
         margin-bottom: 10px;
+        cursor: pointer;
   }
 /* contact end */
 /* footer-body start */
